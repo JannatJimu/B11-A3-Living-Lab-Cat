@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- daisyUI font cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-bg-color': '#FFF9F4',
+                        'primary-color':'#FFDC26'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1707522de5.js" crossorigin="anonymous"></script>
+    <!-- adlam font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- sora font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .adlam-display-regular {
+            font-family: "ADLaM Display", serif;
+        }
+
+        .sora-font {
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+
+<body class="sora-font">
+    <header class="md:container ">
+        <!-- navbar section -->
+        <nav class="bg-primary-bg-color ">
+            <div class="lg:max-w-7xl pt-4 pb-4 mx-auto flex justify-between items-center  ">
+                <div class="flex  navbar-start items-center gap-4">
+                    <img src="./c1-assets/logo-header.png" alt="">
+                    <h3 class="text-2xl">Browse <span class="text-primary-color">4</span>Pets</h3>
+                </div>
+                <div class="flex items-center navbar-center gap-4">
+                    <h3 class="text-base font-medium">Find a pet</h3>
+                    <h3 class="text-base font-medium"> Breeds</h3>
+                    <h3 class="text-base font-medium">Contact us</h3>
+                </div>
+                <div class="flex items-center navbar-end gap-4">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a class="btn px-7 py-1 border-1 border-primary-color text-black font-normal bg-white">Login</a>
+                    <a class="btn bg-primary-color px-7 py-1 text-black font-normal">Register</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
